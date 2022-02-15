@@ -89,6 +89,24 @@
         }
         titleText();
 
+        function toUpperCase() {
+            let para = document.getElementsByTagName("p");
+            for (let index = 0; index < para.length; index+=1) {
+                para[index].innerText = para[index].innerHTML.toUpperCase();
+            }            
+        }
+        toUpperCase();
+
+        function pText() {
+            let p1 = document.getElementsByTagName("p");
+            
+      for (let index = 0; index < p1.length; index += 1) {
+        console.log(p1[index].innerHTML);
+      }
+            console.log(p1);
+            }
+        pText();
+
        
 
     </script>
